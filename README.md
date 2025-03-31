@@ -66,6 +66,13 @@ docker-compose ps
 
 - Qdrant UI: http://localhost:6333/dashboard
 - MCP Server: http://localhost:8000
+- cursor 등 ai ide 에 설정 시, 아래 json 형식으로 추가 가능
+
+```json
+    "qdrant": {
+      "url": "http://localhost:8000/sse"
+    },
+```
 
 ## 환경 변수
 
